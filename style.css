@@ -1,0 +1,169 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url(fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: #121214;
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    height: 120px ;
+}
+
+header div{
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+    margin-top: 20px;
+    transition: ease-in-out .4s;
+}
+
+header div:hover{
+    transform: scale(1.2);
+}
+
+header img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+main{
+    color: aliceblue;
+    max-width: 580px;
+    width: 90%;
+    margin: 20px auto;   
+}
+
+.games{
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.games h2 {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;   
+}
+
+.games p{
+    padding-bottom: 20px; 
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+.games a img{
+    width: 100px;
+}
+
+.games div{
+    background-color: #2A2634;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    
+    
+}
+
+.streamers {
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 12px;
+    margin-top: 30px;
+    
+}
+
+.streamers div{
+    background-color: #2A2634;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    
+
+}
+
+.streamers h2{    
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;    
+}
+
+.streamers p{
+    padding-bottom: 20px; 
+}
+
+.streamers a img{
+    border-radius: 50%;
+}
+
+section ul li{
+    transition: transform .5s;
+}
+
+section ul li:hover{
+    transform: scale(1.2);
+}
+
+.redes{
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 5px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+    
+.redes div{
+    background-color: #2A2634;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.redes h2{
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;   
+}
+
+.redes p{
+    padding-bottom: 20px;  
+}
+
+header div{
+    animation: deCima .5s;
+    animation-delay: .5s;
+}
+
+@keyframes deCima {
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+main section{
+    animation: secoes 1s;
+}
+
+@keyframes secoes {
+    from{
+        opacity: 0;
+        transform: translateY(500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
